@@ -16,9 +16,9 @@ classifiers = [
   "Intended Audience :: Developers",
   "License :: OSI Approved :: GNU Affero General Public License v3",
   "Programming Language :: Python :: 3",
-  "Programming Language :: Python :: 3.12",
+  "Programming Language :: Python :: 3.13",
 ]
-requires-python = ">=3.12,<3.13"
+requires-python = ">=3.13,<3.14"
 dynamic = ["dependencies"]
 
 [project.scripts]
@@ -179,7 +179,7 @@ known_third_party = ["Crypto", "PySide6", "coloredlogs", "dataclasses_json", "ff
 [tool.mypy]
 # https://mypy.readthedocs.io/en/latest/config_file.html#using-a-pyproject-toml-file
 files = ["tidal_dl_ng"]
-python_version = "3.12"
+python_version = "3.13"
 pretty = true
 show_traceback = true
 color_output = true
